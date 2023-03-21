@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+nav {
+    text-align: right;
+    word-spacing: 100px;
+    margin: 0px;
+}
+h1 {
+  font-size: 900%;
+  font-family: "sans-serif";
+  text-transform: none;
+  text-align: left;
+  transform: none;
+  color: darkred;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 300px;
+    background-color: hotpink;
+}
+
+h2, h3, h4 {
+  color: darkred;
+    margin-left: 275px;
+    margin-top: 50px;
+}
+p {
+     margin-left: 275px;
+     margin-right: 275px;
+}
+
+a { 
+  color: hotpink; 
+}
+
+img {
+  display: inline;
+  margin-left: 180px;
+    margin-top: 50px;
+height: 500px;
+
+}
+
+form {
+    padding-left: 200px; 
+    padding-right: 200px;
+    margin-top: 50px;
+     
+}
+aside {
+    float: right;
+    margin: inherit;
+    background-color: gainsboro;
+    display: grid;
+    padding: 50px;
+}
+ul{
+   margin-left: 275px;
+     margin-right: 275px; 
+}
+iframe {
+  display: block;
+  margin: auto;
+    margin-top: 50px;
+  width: 560px;
+  height: 315px;
+}
+
+input {
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+footer {
+    background-color: hotpink;
+    color: whitesmoke;
+    padding: 50px;
+    margin-top: 20px;
+}
+.principal {
+    margin-left: 275px;
+}
+
