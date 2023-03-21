@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Ainize Vázquez · Contacto</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="images/iconoa.ico">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+			     <a href="index.html">Aboutme</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contacto.html">Contacto</a>
+			</nav>
+		</header>
+		<main>
+				 <h1>¡Contacta conmigo!</h1>
+			<h2>Envíame un mensaje para que podamos trabajar juntxs</h2>
+			<form action="server.php" method="get">
+			  <fieldset>
+				<legend>Tus datos</legend>
+				<label for="id-nombre">Nombre </label>
+				<input type="text" name="nombre" id="id-nombre">
+				<br><br>
+				<label for="id-email">Email </label>
+				<input type="email" name="email" id="id-email">
+			  </fieldset>
+			  <fieldset>
+				<legend>Mensaje</legend>
+				<label for="id-motivo">Motivo </label>
+				<select id="id-motivo" name="motivo">
+				  <option selected>Presupuesto</option>
+				  <option>Información</option>
+				  <option>Colaboración</option>
+				</select>
+				<br><br>
+				<textarea name="mensaje" rows="6" cols="30" placeholder="Mensaje"></textarea>
+			  </fieldset>
+			  <br>
+			  <input type="checkbox" name="condiciones" id="id-condiciones" value="1">
+			  <label for="id-condiciones">Acepto las condiciones</label>
+			  <br><br>
+			  <input type="submit" name="enviar" value="Enviar">
+			</form>
+		</main>
+        <footer>
+		<p>© 2023 Portfolio Ainize Vázquez. Todos los derechos reservados.</p>
+	</footer>
+
+	</body>
+</html>
